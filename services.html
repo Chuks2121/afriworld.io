@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - Afri World</title>
+    <link rel="stylesheet" href="global.css">
+     <link rel="stylesheet" href="services.css">
+</head>
+<body>
+
+    <!-- Header with Contact & Social Media -->
+    <header>
+        <div class="header-top">
+            <p>📍 Asaba | ☎ +234 706 255 3732 | ✉ chukylofashion@gmail.com</p>
+            <div class="social-icons">
+                <a href="#"><img src="icons/facebook-icon.png" alt="Facebook"></a>
+                <a href="#"><img src="icons/linkedin-icon.png" alt="LinkedIn"></a>
+                <a href="#"><img src="icons/x-icon.png" alt="X"></a>
+                <a href="#"><img src="icons/instagram-icon.png" alt="Instagram"></a>
+            </div>
+        </div>
+        <div class="nav-container">
+            <a href="index.html" class="logo"><img src="images/logo.jpg" alt="Afriworld Logo"></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                 <button class="menu-toggle">☰</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero services-hero">
+        <div class="hero-content">
+            <h2>Our Services</h2>
+            <p>Providing top-notch solutions to businesses and individuals across Africa.</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="container">
+            <div class="service-container">
+
+                <div class="service-box">
+                    <img src="images/web-development.jpg" alt="Web Development">
+                    <h3>Web Development</h3>
+                    <p>We create responsive, modern, and fast-loading websites for businesses and individuals.</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+
+                <div class="service-box">
+                    <img src="images/digital-marketing.jpg" alt="Digital Marketing">
+                    <h3>Digital Marketing</h3>
+                    <p>We help businesses grow online with SEO, social media marketing, and content strategies.</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+
+                <div class="service-box">
+                    <img src="images/cybersecurity.jpg" alt="Cybersecurity">
+                    <h3>Cybersecurity</h3>
+                    <p>Protect your business from cyber threats with our advanced security solutions.</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+
+                <div class="service-box">
+                    <img src="images/agriculture1.jpg" alt="Agriculture">
+                    <h3>Agriculture</h3>
+                    <p>We invest in smart farming solutions for sustainable food production in Africa.</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+
+                <div class="service-box">
+                    <img src="images/transportation-services.jpg" alt="Transportation">
+                    <h3>Transportation</h3>
+                    <p>We offer efficient logistics and transport solutions to connect businesses and customers.</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+
+                <div class="service-box">
+                    <img src="images/bill-payments.jpg" alt="Bill Payments">
+                    <h3>Bill Payments</h3>
+                    <p>Make seamless online transactions and bill payments securely.</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-box">
+                <h3>About Us</h3>
+                <p>Afri World is dedicated to providing top-tier services in innovation, IT, and more.</p>
+            </div>
+            <div class="footer-box">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-box">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#"><img src="icons/facebook-icon.png" alt="Facebook"></a>
+                    <a href="#"><img src="icons/x-icon.png" alt="Twitter"></a>
+                    <a href="#"><img src="icons/instagram-icon.png" alt="Instagram"></a>
+                    <a href="#"><img src="icons/linkedin-icon.png" alt="LinkedIn"></a>
+                </div>
+            </div>
+        </div>
+        <p>&copy; 2025 Afri World. All Rights Reserved.</p>
+    </footer>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          const menuToggle = document.querySelector(".menu-toggle");
+          const navLinks = document.querySelector(".nav-links");
+    
+          menuToggle.addEventListener("click", function () {
+            navLinks.classList.toggle("active");
+            menuToggle.textContent = navLinks.classList.contains("active") ? "✖" : "☰";
+          });
+        });
+      </script>
+    
+    
+</body>
+</html>

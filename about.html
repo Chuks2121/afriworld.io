@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afriworld.com - about</title>
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+
+    <!-- Header with Contact & Social Media -->
+    <header>
+      <div class="header-top">
+          <p>📍 Asaba | ☎ +234 706 255 3732 | ✉ chukylofashion@gmail.com</p>
+          <div class="social-icons">
+              <a href="#"><img src="icons/facebook-icon.png" alt="Facebook"></a>
+              <a href="#"><img src="icons/linkedin-icon.png" alt="LinkedIn"></a>
+              <a href="#"><img src="icons/x-icon.png" alt="X"></a>
+              <a href="#"><img src="icons/instagram-icon.png" alt="Instagram"></a>
+          </div>
+      </div>
+      <div class="nav-container">
+          <a href="index.html" class="logo"><img src="images/logo.jpg" alt="Afriworld Logo"></a>
+          <nav>
+              <ul class="nav-links">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="portfolio.html">Portfolio</a></li>
+                  <li><a href="blog.html">Blog</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+              </ul>
+               <button class="menu-toggle">☰</button>
+          </nav>
+      </div>
+  </header>
+
+
+  <main class="about">
+    <section class="intro">
+      <h1>About Afriworld</h1>
+      <p>Empowering Africa through Innovation and Technology</p>
+    </section>
+
+    <section class="mission-vision">
+      <div class="box">
+        <h2>Our Mission</h2>
+        <p>To connect Africa to the world through cutting-edge digital services that empower people, improve businesses, and foster sustainable development.</p>
+      </div>
+      <div class="box">
+        <h2>Our Vision</h2>
+        <p>To be Africa’s most trusted hub for digital innovation, driving progress across the continent through technology, creativity, and enterprise.</p>
+      </div>
+    </section>
+
+    <section class="phases">
+      <h2>What We Do</h2>
+      <ul>
+        <li><strong>Phase 1: Innovation & IT Services</strong> – Web Development, Cybersecurity, and Digital Marketing.</li>
+        <li><strong>Phase 2: Agriculture & Transportation</strong> – Tech-driven solutions to food and logistics challenges.</li>
+        <li><strong>Phase 3: Bill Payments</strong> – A secure platform for utility and service payments.</li>
+        <li><strong>Phase 4: Media & Communication</strong> – Social platforms and community engagement tools.</li>
+        <li><strong>Phase 5: International Business</strong> – Connecting African businesses to global markets.</li>
+      </ul>
+    </section>
+
+    <section class="why-us">
+      <h2>Why Choose Us?</h2>
+      <ul>
+        <li>✅ <strong>Pan-African Focus</strong>: We build solutions for Africa, by Africans.</li>
+        <li>✅ <strong>Trusted Expertise</strong>: A passionate team across IT, business, and marketing.</li>
+        <li>✅ <strong>Client-Centered</strong>: We partner closely with every client’s success in mind.</li>
+        <li>✅ <strong>Innovation-Driven</strong>: Using modern tools and forward-thinking strategies.</li>
+      </ul>
+    </section>
+
+    <section class="cta">
+      <p>Ready to build the future of Africa with us?</p>
+      <a href="contact.html" class="btn">Contact Us</a>
+    </section>
+  </main>
+
+  <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-box">
+                <h3>Location</h3>
+                <p>📍 Asaba, Nigeria</p>
+            </div>
+            <div class="footer-box">
+                <h3>Contact</h3>
+                <p>☎ +234 706 255 3732</p>
+                <p>✉ chukylofashion@gmail.com</p>
+            </div>
+            <div class="footer-box">
+                <h3>Follow Us</h3>
+                <a href="#"><img src="icons/facebook-icon.png" alt="Facebook"></a>
+                <a href="#"><img src="icons/linkedin-icon.png" alt="LinkedIn"></a>
+                <a href="#"><img src="icons/x-icon.png" alt="X"></a>
+                <a href="#"><img src="icons/instagram-icon.png" alt="Instagram"></a>
+            </div>
+        </div>
+        <p>&copy; 2025 Afriworld.com | All Rights Reserved</p>
+    </footer>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const menuToggle = document.querySelector(".menu-toggle");
+        const navLinks = document.querySelector(".nav-links");
+  
+        menuToggle.addEventListener("click", function () {
+          navLinks.classList.toggle("active");
+          menuToggle.textContent = navLinks.classList.contains("active") ? "✖" : "☰";
+        });
+      });
+    </script>
+</body>
+</html>

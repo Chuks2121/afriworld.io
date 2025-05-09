@@ -1,0 +1,101 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+main.about {
+  padding: 40px 20px;
+  background-color: #fff;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.intro h1 {
+  font-size: 36px;
+  color: #2c3e50;
+}
+
+.intro p {
+  font-size: 18px;
+  color: #7f8c8d;
+}
+
+.mission-vision {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.mission-vision .box {
+  flex: 1;
+  background: #fafafa;
+  padding: 20px;
+  border-left: 5px solid #ffb300;
+}
+
+.phases h2,
+.why-us h2 {
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.phases ul,
+.why-us ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.phases li,
+.why-us li {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.why-us ul li strong {
+  color: #000;
+}
+
+.cta {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.cta .btn {
+  background: #ffb300;
+  color: #000;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.cta .btn:hover {
+  background: #e09e00;
+}
+
+footer {
+  text-align: center;
+  background: #000;
+  color: #fff;
+  padding: 20px;
+  margin-top: 30px;
+}
